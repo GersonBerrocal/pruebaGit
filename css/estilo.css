@@ -7,3 +7,13 @@ header {
 .titulo {
   margin-bottom:.5em;
 }
+
+.frase {
+  max-width: 700px;
+  margin: 1em auto 0;
+  padding-bottom: 1em;
+  border-bottom: 2px solid black;
+}
+.frase:last-child {
+  border-bottom:none;
+}
